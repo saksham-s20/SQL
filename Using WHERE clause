@@ -5,3 +5,5 @@ select * from student where city = "Mumbai";
 select * from student where marks > 80;
 
 select * from student where marks > 80 and city = "Mumbai";
+
+select *  from student where marks+10 > 100;
