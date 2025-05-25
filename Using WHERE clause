@@ -1,0 +1,7 @@
+Using WHERE clause
+
+select * from student where city = "Mumbai";
+
+select * from student where marks > 80;
+
+select * from student where marks > 80 and city = "Mumbai";
