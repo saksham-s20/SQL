@@ -1,0 +1,7 @@
+use college;
+
+select * from student 
+where marks > 80 AND city = "Mumbai";
+
+select * from student 
+where marks > 80 OR city = "Mumbai";
