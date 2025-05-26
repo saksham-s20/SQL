@@ -1,0 +1,16 @@
+use college;
+
+select * from student
+where marks between 80 and 90;
+
+select * from student
+where marks in (85,90);
+
+select * from student
+where city in ("Delhi", "Mumbai");
+
+select * from student
+where city not in ("Delhi", "Mumbai");
+
+select * from student
+where city not in ("Gurgaon", "Mumbai", "Lucknow");
